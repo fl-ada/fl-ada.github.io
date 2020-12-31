@@ -4,7 +4,6 @@ title: "Now I can really feel Hello World"
 permalink: /first-post/
 date: 2020-12-31 14:02
 background:
-tag: [Blog]
 
 categories:
   - Blog
