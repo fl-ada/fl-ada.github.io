@@ -7,9 +7,9 @@ background:
 tag: [Blog]
 
 categories:
-	- Blog
+  - Blog
 tags:
-	- Blog
+  - Blog
 last_modified_at: 2020-12-31T14:02:00+09:00
 ---
 
