@@ -6,10 +6,10 @@ date: 2020-12-31 14:02
 background:
 
 categories:
-  - Blog
+  - blog
 tags:
-  - Blog
-last_modified_at: 2020-12-31T14:02:00+09:00
+  - blog
+last_modified_at: 2020-12-31T13:02:00+09:00
 ---
 
 This is the last day of me being a student, although the last grades are not yet come out and my graduation certificate is only available around Oct or Nov next year. Since my last final exam in UG life completed a couple of days before 2020 Christmas, I just personally set today, the last day of 2020, as the day.
