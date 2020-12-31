@@ -1,7 +1,7 @@
 ---
-layout: post
+layout: posts
 title: "Now I can really feel Hello World"
-subtitle: "[Blog]"
+permalink: /first-post/
 date: 2020-12-31 14:02
 background:
 tag: [Blog]
