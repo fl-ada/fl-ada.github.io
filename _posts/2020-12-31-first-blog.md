@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: "Now I can really feel Hello World"
-permalink: /first-post/
+permalink: /blog/first-post/
 date: 2020-12-31 14:02
 background:
 
