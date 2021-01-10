@@ -12,6 +12,12 @@ tags:
 last_modified_at: 2021-01-01T15:18:26+09:00
 ---
 
+studied with the lecture below: 
+
+[머신러닝을 위한 파이썬](https://www.boostcourse.org/ai222/lecture/24523)
+
+---
+
 My first computer language was `C++`, and jumped into `Python`  to do data analysis. So, yes I used some very pythonic codes, but usually not understanding what it is really. This opportunity allows me to review from the very bottom.
 
 # List Comprehension
