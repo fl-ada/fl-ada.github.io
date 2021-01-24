@@ -26,17 +26,17 @@ Lecture from
 
 ## Hypothesis
 
-$$XW=\begin{pmatrix}x_1&x_2&\cdots&x_n\end{pmatrix}\cdot
+<img src="https://render.githubusercontent.com/render/math?math=XW=\begin{pmatrix}x_1&x_2&\cdots&x_n\end{pmatrix}\cdot
 \begin{pmatrix}w_1\\w_2\\\vdots\\w_n\end{pmatrix}\\
-H(X)=XW+b$$
+H(X)=XW+b">
 
 ## cost/loss/error
 
-$$\text{avg. of }(H(x)-y)^2$$
+<img src="https://render.githubusercontent.com/render/math?math=\text{avg. of }(H(x)-y)^2">
 
-$$cost(W,b)=\frac1m\sum_{i=1}^M(H(x_i)-y_i)^2$$
+<img src="https://render.githubusercontent.com/render/math?math=cost(W,b)=\frac1m\sum_{i=1}^M(H(x_i)-y_i)^2">
 
-## Goal : $\displaystyle{\argmin_{W,b}cost(W,b)}$
+## Goal : <img src="https://render.githubusercontent.com/render/math?math=\displaystyle{\argmin_{W,b}cost(W,b)}">
 
 # In TensorFlow
 
@@ -59,7 +59,7 @@ cost = tf.**reduce_mean**(tf.**square**(hypothesis - y_data))
 
 ## Gradient descent
 
-$$\argmin_{W,b}cost(W,b)$$
+<img src="https://render.githubusercontent.com/render/math?math=\argmin_{W,b}cost(W,b)">
 
 ```python
 import tensorflow as tf
@@ -95,10 +95,10 @@ for i in range(100+1):
 
 minimize the cost → cost gradient = 0
 
-$$\text{include b in matrix W, divide by 2}\\
+<img src="https://render.githubusercontent.com/render/math?math=\text{include b in matrix W, divide by 2}\\
 cost(W):=\frac1{2m}\sum_{i=1}^m(H(x_i)-y_1)^2\\
 W:=W-\alpha\frac{\partial}{\partial W}cost(W)\\
-=W-\alpha\frac1m\sum_{i=1}^m(W(x_i)-y_i)x_i$$
+=W-\alpha\frac1m\sum_{i=1}^m(W(x_i)-y_i)x_i">
 
 When cost is convex function, (local min=global min), gradient descent can always find the minimum point.
 
