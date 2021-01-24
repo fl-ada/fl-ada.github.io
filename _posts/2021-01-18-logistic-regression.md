@@ -29,4 +29,4 @@ Lecture from
 
 # cost function
 
-![eq_log_cost.png](assets/images/posts/2021-01-18/eq_log_cost.png)
+![eq_log_cost.png](/assets/images/posts/2021-01-18/eq_log_cost.png)
