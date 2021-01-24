@@ -26,9 +26,7 @@ Lecture from
 
 ## Hypothesis
 
-<img src="https://render.githubusercontent.com/render/math?math=XW=\begin{pmatrix}x_1&x_2&\cdots&x_n\end{pmatrix}\cdot
-\begin{pmatrix}w_1\\w_2\\\vdots\\w_n\end{pmatrix}\\
-H(X)=XW+b">
+![eq_hypo.png](/assets/images/posts/2021-01-17/eq_hypo.png)
 
 ## cost/loss/error
 
@@ -95,10 +93,7 @@ for i in range(100+1):
 
 minimize the cost → cost gradient = 0
 
-<img src="https://render.githubusercontent.com/render/math?math=\text{include b in matrix W, divide by 2}\\
-cost(W):=\frac1{2m}\sum_{i=1}^m(H(x_i)-y_1)^2\\
-W:=W-\alpha\frac{\partial}{\partial W}cost(W)\\
-=W-\alpha\frac1m\sum_{i=1}^m(W(x_i)-y_i)x_i">
+![eq_cost.png](/assets/images/posts/2021-01-17/eq_cost.png)
 
 When cost is convex function, (local min=global min), gradient descent can always find the minimum point.
 
@@ -121,7 +116,7 @@ for feed_W in W_values:
 	print("{:6.3f} | {:10.5f}".format(feed_W, curr_cost))
 ```
 
-![cost func.png](/assets/images/posts/2021-01-17/cost func.png)
+![cost_func.png](/assets/images/posts/2021-01-17/cost_func.png)
 
 ```python
 # for reproducibility
